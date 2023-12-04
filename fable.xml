@@ -1,6 +1,37 @@
 <fable>
-	<page>
-  
-    
-  </page>
+    <page background="bg_cemiterio.png" soundtrack="song.wav" >
+        <agent text="Coisas que você deveria pensar sobre:" font-size="20" color="white" x="20" y="460" width="400" />
+        <agent img="chao_cemiterio.png" x="0" y="0" width="500" height="100" />
+        <agent img="ArrowSign.png" x="380" y="93" width="100" height="100" on-touch="_NEXT_PAGE"/>
+        
+    </page>
+
+    <page background="bg_deserto.png" soundtrack="song.wav" >
+        <agent text="Faça amigos, não há solidão mais triste do que a vida de um homem sem amigos, a falta deles faz a vida parecer um deserto." font-size="20" color="black" x="20" y="380" width="400" />
+        <agent img="chao_deserto.png" x="0" y="0" width="500" height="100" />
+        <agent img="SignArrow.png" x="380" y="93" width="100" height="100" on-touch="_NEXT_PAGE" />
+        <agent img="Sign_back.png" x="20" y="93" width="70" height="70" on-touch="_PREV_PAGE" />
+    </page>
+
+    <page background="bg_neve.png" soundtrack="song.wav" >
+        <agent text="Há três métodos para ganhar sabedoria: primeiro, por reflexão, que é o mais nobre; segundo, por imitação, que é o mais fácil; e terceiro, por experiência, que é o mais amargo." font-size="20" color="black" x="20" y="350" width="400" />
+        <agent img="chao_neve.png" x="0" y="0" width="500" height="100" />
+        <agent img="Sign_2.png" x="380" y="93" width="100" height="100" on-touch="_NEXT_PAGE" />
+        <agent img="Sign_back.png" x="20" y="93" width="70" height="70" on-touch="_PREV_PAGE" />
+    </page>
+
+    <page background="bg_floresta.png" soundtrack="song.wav" >
+        <agent text="Enquanto protelamos, a vida passa por nós a correr." font-size="20" color="black" x="20" y="400" width="400" />
+        <agent img="chao_floresta.png" x="0" y="0" width="500" height="100" />
+        <agent img="SignArrow.png" x="380" y="93" width="100" height="100" on-touch="_NEXT_PAGE" />
+        <agent img="Sign_back.png" x="20" y="93" width="70" height="70" on-touch="_PREV_PAGE" />
+    </page>
+
+    <page background="bg_cemiterio.png" soundtrack="song.wav" >
+        <agent text="Morremos a cada dia, a cada dia falta uma parte da vida." font-size="20" color="white" x="20" y="435" width="400" />
+        <agent img="chao_cemiterio.png" x="0" y="0" width="500" height="100" />
+        <agent img="Sign_back.png" x="20" y="93" width="70" height="70" on-touch="_PREV_PAGE" />
+        <agent text="Volte se achar preciso. A vida é uma só, agarre-a com empenho." font-size="15" color="white" x="100" y="105" width="400" />
+        
+    </page>
 </fable>
